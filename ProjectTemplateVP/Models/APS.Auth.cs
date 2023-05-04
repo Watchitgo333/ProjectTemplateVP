@@ -11,13 +11,8 @@ namespace ProjectTemplateVP.Models
     {
         public string GetAuthUrl()
         {
-            var url = "https://developer.api.autodesk.com/authentication/v2/authorize" +
-                "?client_id=jEhZuGhBARbJHfeN59EXhtssAEl04FuG" +
-                "&response_type=code&redirect_uri=http://localhost:8080/api/auth/callback" +
-                "&scope=data:read&prompt=login" +
-                "&code_challenge=7NcYcNGWMxapfjrDQIyYNa2M8PPBvHA1J8MCZVNPda4" +
-                "&code_challenge_method=S256";
-            return url;
+            //var url = //build url here
+            //return url;
         }
 
         public void GetCodeChallenge()
